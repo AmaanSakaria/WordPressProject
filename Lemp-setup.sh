@@ -1,6 +1,4 @@
 #!/bin/bash
-sudo apt -y update
-sudo apt -y upgrade
 sudo touch testing.txt #this file will contain the output of our lemp stack unit tests
 sudo apt -y install nginx
 sudo systemctl strat nginx && sudo systemctl enable nginx       #this starts and enables nginx on a server reboot. the 2nd comand will only run if the first command is succesful 
